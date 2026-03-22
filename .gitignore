@@ -1,0 +1,45 @@
+## --- Visual Studio ---
+## Pliki binarne i foldery kompilacji
+[Bb]in/
+[Oo]bj/
+[Aa]rm/
+[Aa]rm64/
+[Xx]64/
+[Xx]86/
+
+## Pliki użytkownika (ustawienia okien, breakpointy itp.)
+*.user
+*.userosscache
+*.sln.docuser
+
+## Cache i pliki tymczasowe Visual Studio
+.vs/
+[Tt]emp/
+*TestResults*
+*.suo
+*.user
+*.userosscache
+*.sln.docuser
+*.cache
+*.opendb
+*.db
+*.hash
+
+## --- .NET / NuGet ---
+## Przywrócone pakiety bibliotek
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/[Pp]ackages/*
+!**/[Pp]ackages/repositories.config
+nupkg/
+
+## --- Narzędzia i Logi ---
+*.log
+*.tmp
+.ionide/
+
+## --- Azure Functions / Specyficzne dla hostingu ---
+bin/
+obj/
+appsettings.Development.json
